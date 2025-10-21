@@ -1,1 +1,1 @@
-web: gunicorn mini_erp_pydata:app
+web: gunicorn app.main:app
